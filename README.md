@@ -1,1 +1,30 @@
 # Pharmacy-Sales-Analysis
+# Introduction:
+The pharmaceutical industry relies heavily on accurate forecasting of drug consumption to optimize production and distribution. Accurate predictions enable efficient resource allocation and inventory management. In this context, data-driven approaches, specifically machine learning models, have proven effective in forecasting drug consumption based on historical data. This project aims to leverage machine learning techniques, particularly XGBoost regression, to predict drug consumption in the pharmaceutical sector.
+
+# Objective:
+The primary objective of this project is to develop a robust and accurate model for predicting drug consumption in the pharmaceutical industry. The model is trained on historical data, considering factors such as time, day, and drug type. By utilizing XGBoost regression and optimizing hyperparameters through grid search, the goal is to create a reliable tool for forecasting drug consumption. The proposed system is designed to provide pharmaceutical companies with insights into future demand, enabling them to make informed decisions regarding production planning and supply chain management.
+
+# Proposed System:
+The proposed system involves several key steps:
+
+1. *Data Exploration and Visualization:* The initial phase involves exploring and visualizing historical drug consumption data. Various plots and charts, such as line charts and bar charts, are utilized to understand consumption trends over time, by drug category, and on a monthly or yearly basis.
+
+2. *Data Preprocessing:* The dataset undergoes preprocessing steps, including encoding categorical variables using LabelEncoder and melting the data to facilitate machine learning model training.
+
+-----SCREENSHOT-------
+
+3. *Model Training:* XGBoost regression is chosen as the predictive model due to its effectiveness in handling complex relationships within the data. The model is trained on historical data, with an emphasis on features such as year, month, day, and drug type.
+
+4. *Hyperparameter Tuning:* Grid search is employed to optimize the hyperparameters of the XGBoost model, ensuring the best possible performance. The grid search explores combinations of parameters such as the number of trees, learning rate, maximum depth, subsample ratio, and column subsample ratio.
+
+------------SCREENSHOT------------
+
+5. *Model Evaluation:* The model's performance is evaluated using metrics such as mean squared error on a test set. This step ensures the model's ability to generalize to new, unseen data.
+
+6. *Deployment and Prediction:* Once the model is trained and optimized, it is deployed and used to predict drug consumption for a specified time period and drug category.
+
+---------SCREENSHOT------------
+
+# Conclusion:
+In conclusion, this project demonstrates the application of machine learning, specifically XGBoost regression, in predicting drug consumption in the pharmaceutical industry. By analyzing historical data and optimizing the model's hyperparameters, the proposed system provides accurate and reliable forecasts. This tool empowers pharmaceutical companies to make proactive decisions in production and supply chain management, ultimately improving efficiency and reducing costs. The project showcases the potential of data-driven approaches in enhancing decision-making processes within the pharmaceutical sector.
