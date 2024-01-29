@@ -1,14 +1,16 @@
 # Pharmacy-Sales-Analysis
 # Introduction:
-The pharmaceutical industry relies heavily on accurate forecasting of drug consumption to optimize production and distribution. Accurate predictions enable efficient resource allocation and inventory management. In this context, data-driven approaches, specifically machine learning models, have proven effective in forecasting drug consumption based on historical data. This project aims to leverage machine learning techniques, particularly XGBoost regression, to predict drug consumption in the pharmaceutical sector.
+The pharmaceutical industry relies heavily on accurate forecasting of drug consumption to optimize production and distribution. Accurate predictions enable efficient resource allocation and inventory management. In this context, data-driven approaches, specifically machine learning models, have proven effective in forecasting drug consumption based on historical data.In addition to leveraging machine learning techniques for drug consumption prediction, this project also incorporates the development of a billing software feature for the pharmaceutical sector. This billing software aims to streamline the financial aspects of the industry by automating the billing process and providing accurate and efficient invoicing for pharmaceutical products.The billing software feature will be seamlessly integrated into the overall system, allowing pharmaceutical companies to generate invoices and manage financial transactions with ease.The addition of report analysis prediction to the project allows for the prediction of sales analysis. With this feature, the billing software can generate comprehensive reports that provide insights into sales patterns and trends.
 
 # oneAPI
    oneAPI is an open, standards-based programming model designed to simplify development across diverse computing architectures. It is an initiative led by Intel, aiming to provide a unified programming model for heterogeneous computing environments, including CPUs, GPUs, FPGAs, and other accelerators.Optimizing code for oneAPI involves leveraging the features and tools provided by the oneAPI programming model to achieve better performance on diverse computing architectures.For optimizing your XGBoost project with oneAPI, start by installing the oneAPI toolkit on your system. When building XGBoost from source, use the Intel C++ Compiler (icc) from the oneAPI toolkit for potential performance improvements on Intel CPUs. Alternatively, consider using the Intel Distribution for XGBoost, specifically designed for Intel architectures. If you have Intel GPUs and aim to offload computations to the GPU using oneAPI, modify the XGBoost code or use compatible APIs such as DPC++. Profiling tools like Intel VTune Profiler can help identify performance bottlenecks. Stay updated by referring to the official documentation of XGBoost, the oneAPI toolkit, and relevant tools, as software features may evolve. These steps ensure an optimized integration of XGBoost with oneAPI for efficient machine learning on Intel architectures in your project.
-![Screenshot 2024-01-28 220247](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/337f673c-37bd-4dbe-9cc1-c95c40acc178)
+
+
+![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/aec204f5-04cd-4281-9c0e-743bb4e77168)
 
 
 # Objective:
-The primary objective of this project is to develop a robust and accurate model for predicting drug consumption in the pharmaceutical industry. The model is trained on historical data, considering factors such as time, day, and drug type. By utilizing XGBoost regression and optimizing hyperparameters through grid search, the goal is to create a reliable tool for forecasting drug consumption. The proposed system is designed to provide pharmaceutical companies with insights into future demand, enabling them to make informed decisions regarding production planning and supply chain management.
+The primary objective of this project is to develop a robust and accurate model for predicting drug consumption in the pharmaceutical industry. The model is trained on historical data, considering factors such as time, day, and drug type. By utilizing XGBoost regression and optimizing hyperparameters through grid search, the goal is to create a reliable tool for forecasting drug consumption. this project also incorporates the development of a billing software feature for the pharmaceutical sector.The addition of report analysis prediction to the project allows for the prediction of sales analysis. With this feature, the billing software can generate comprehensive reports that provide insights into sales patterns and trends.
 
 # Proposed System:
 The proposed system involves several key steps:
@@ -17,30 +19,41 @@ The proposed system involves several key steps:
 
 2. *Data Preprocessing:* The dataset undergoes preprocessing steps, including encoding categorical variables using LabelEncoder and melting the data to facilitate machine learning model training.
 
-![WhatsApp Image 2024-01-28 at 21 47 51_28f9ed1c](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/952d0239-3eca-4f8d-9497-d2b08622d96d)
+![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/6328a7ae-bd75-4039-8204-9fa6ef748d90)
+
+
 
 
 3. *Model Training:* XGBoost regression is chosen as the predictive model due to its effectiveness in handling complex relationships within the data. The model is trained on historical data, with an emphasis on features such as year, month, day, and drug type.
 
 4. *Hyperparameter Tuning:* Grid search is employed to optimize the hyperparameters of the XGBoost model, ensuring the best possible performance. The grid search explores combinations of parameters such as the number of trees, learning rate, maximum depth, subsample ratio, and column subsample ratio.
 
-![WhatsApp Image 2024-01-28 at 21 47 51_fa2fe09f](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/faf2ad2d-bc3b-4ac9-8616-625bf40b46db)
-
-
 5. *Model Evaluation:* The model's performance is evaluated using metrics such as mean squared error on a test set. This step ensures the model's ability to generalize to new, unseen data.
 
 6. *Deployment and Prediction:* Once the model is trained and optimized, it is deployed and used to predict drug consumption for a specified time period and drug category.
 
-![WhatsApp Image 2024-01-28 at 21 47 51_7df69568](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/3e45a320-c43f-43da-9a1f-7e2e070ff4b6)
+![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/a39703c7-566e-436f-8ff3-dc56b2eeed65)
+
+
 
 7. *User Inteface:* Once the forecast is generated, you can view the predicted drug consumption for the selected timeframe through interactive visualizations and charts.
 # Features:
 
-1. *Billing Software:* Billing is a robust and user-friendly billing software designed specifically for healthcare professionals and medical facilities. Whether you're a small clinic or a large hospital, our software offers a comprehensive solution to manage all aspects of your billing needs efficiently.
+1. *UserLogin:* A login ID is provided to users to access a system or platform specifically designed for managing sales-related activities. With their unique login ID, individuals can log in to the system, track sales data, process orders, manage inventory, and perform other sales-related tasks efficiently and securely.
+
+![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/e4b96191-e04a-423c-83fa-2b30550bbfad)
+
+
+   
+3. *Billing Software:* Billing is a robust and user-friendly billing software designed specifically for healthcare professionals and medical facilities. Whether you're a small clinic or a large hospital, our software offers a comprehensive solution to manage all aspects of your billing needs efficiently.
 
 ![IMG-20240129-WA0008](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/c59f958c-e84a-4995-8b50-93440307c5ee)
 
-2.2. *Overall Sales Analysis:*Analytics offers powerful tools and analytics to help you understand and optimize your overall sales performance. Whether you're a small business or a large enterprise, our platform provides the insights you need to make data-driven decisions and drive growth.
+3. *Overall Sales Analysis:* Analytics offers powerful tools and analytics to help you understand and optimize your overall sales performance. Whether you're a small business or a large enterprise, our platform provides the insights you need to make data-driven decisions and drive growth.
+
+![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/63c2f84a-4b8b-466a-88bf-a25f26fb0e21)
+
+![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/a822738a-264d-44cd-835c-3edf7b920f91)
 
 # Conclusion:
 In conclusion, this project demonstrates the application of machine learning, specifically XGBoost regression, in predicting drug consumption in the pharmaceutical industry. By analyzing historical data and optimizing the model's hyperparameters, the proposed system provides accurate and reliable forecasts. This tool empowers pharmaceutical companies to make proactive decisions in production and supply chain management, ultimately improving efficiency and reducing costs. The project showcases the potential of data-driven approaches in enhancing decision-making processes within the pharmaceutical sector.
