@@ -45,7 +45,7 @@ The proposed system involves several key steps:
 
 
    
-3. *Billing Software:* Billing is a robust and user-friendly billing software designed specifically for healthcare professionals and medical facilities. Whether you're a small clinic or a large hospital, our software offers a comprehensive solution to manage all aspects of your billing needs efficiently.
+2. *Billing Software:* Billing is a robust and user-friendly billing software designed specifically for healthcare professionals and medical facilities. Whether you're a small clinic or a large hospital, our software offers a comprehensive solution to manage all aspects of your billing needs efficiently.
 
 ![IMG-20240129-WA0008](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/c59f958c-e84a-4995-8b50-93440307c5ee)
 
