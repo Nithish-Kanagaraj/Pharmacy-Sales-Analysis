@@ -72,7 +72,8 @@ ii.Train the machine learning model
 
 iii.Launch the Gradio interface for real-time predictions
 
-**Before running the code run the following commands to install the necessary dependencies**<br/>
+**Before running the code run the following commands to install the necessary dependencies**
+
 ```import pandas as pd```
 
 ```pip install scikit-learn```
