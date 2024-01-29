@@ -54,6 +54,10 @@ The proposed system involves several key steps:
 ![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/63c2f84a-4b8b-466a-88bf-a25f26fb0e21)
 
 ![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/a822738a-264d-44cd-835c-3edf7b920f91)
+# Video Explanation:
+
+https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/37d67c4b-bc6e-4660-9a08-56fddfef3bb0
+
 
 # Setup:
 1.Open XGBOOSTER.ipynb file in Jupyter notebook.
@@ -68,15 +72,17 @@ ii.Train the machine learning model
 
 iii.Launch the Gradio interface for real-time predictions
 
-Before running the code run the following commands to install the necessary dependencies
-import pandas as pd
+**Before running the code run the following commands to install the necessary dependencies**<br/>
+```import pandas as pd```
 
-pip install scikit-learn
+```pip install scikit-learn```
 
-pip install gradio
+```pip install gradio```
 
-from sklearnex import patch_sklearn
+```from sklearnex import patch_sklearn```
 
-patch_sklearn()
+```patch_sklearn()```
+# Result and Discussion:
+After pre-processing and analyzing the obtained dataset, we found that GNB model outperformed all other models with the Root Mean Squared Error of 2.9414887060211687. On the other hand Decision tree with an accuracy of 8.546336651758923.
 # Conclusion:
 In conclusion, this project demonstrates the application of machine learning, specifically XGBoost regression, in predicting drug consumption in the pharmaceutical industry. By analyzing historical data and optimizing the model's hyperparameters, the proposed system provides accurate and reliable forecasts. This tool empowers pharmaceutical companies to make proactive decisions in production and supply chain management, ultimately improving efficiency and reducing costs. The project showcases the potential of data-driven approaches in enhancing decision-making processes within the pharmaceutical sector.
