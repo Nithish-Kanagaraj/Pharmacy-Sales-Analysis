@@ -33,6 +33,10 @@ The proposed system involves several key steps:
 
 ![WhatsApp Image 2024-01-28 at 21 47 51_7df69568](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/3e45a320-c43f-43da-9a1f-7e2e070ff4b6)
 
+7. *User Inteface:* Once the forecast is generated, you can view the predicted drug consumption for the selected timeframe through interactive visualizations and charts.
+# Features:
 
+1. *Billing Software:* MediBilling is a robust and user-friendly billing software designed specifically for healthcare professionals and medical facilities. Whether you're a small clinic or a large hospital, our software offers a comprehensive solution to manage all aspects of your billing needs efficiently.
+   
 # Conclusion:
 In conclusion, this project demonstrates the application of machine learning, specifically XGBoost regression, in predicting drug consumption in the pharmaceutical industry. By analyzing historical data and optimizing the model's hyperparameters, the proposed system provides accurate and reliable forecasts. This tool empowers pharmaceutical companies to make proactive decisions in production and supply chain management, ultimately improving efficiency and reducing costs. The project showcases the potential of data-driven approaches in enhancing decision-making processes within the pharmaceutical sector.
