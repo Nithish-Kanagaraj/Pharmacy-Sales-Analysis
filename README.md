@@ -36,9 +36,11 @@ The proposed system involves several key steps:
 7. *User Inteface:* Once the forecast is generated, you can view the predicted drug consumption for the selected timeframe through interactive visualizations and charts.
 # Features:
 
-1. *Billing Software:* MediBilling is a robust and user-friendly billing software designed specifically for healthcare professionals and medical facilities. Whether you're a small clinic or a large hospital, our software offers a comprehensive solution to manage all aspects of your billing needs efficiently.
+1. *Billing Software:* Billing is a robust and user-friendly billing software designed specifically for healthcare professionals and medical facilities. Whether you're a small clinic or a large hospital, our software offers a comprehensive solution to manage all aspects of your billing needs efficiently.
 
-![IMG-20240129-WA0008](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/5b21057a-6fc2-4465-a148-afead52f5347)
+![IMG-20240129-WA0008](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/c59f958c-e84a-4995-8b50-93440307c5ee)
+
+2.2. *Overall Sales Analysis:*Analytics offers powerful tools and analytics to help you understand and optimize your overall sales performance. Whether you're a small business or a large enterprise, our platform provides the insights you need to make data-driven decisions and drive growth.
 
 # Conclusion:
 In conclusion, this project demonstrates the application of machine learning, specifically XGBoost regression, in predicting drug consumption in the pharmaceutical industry. By analyzing historical data and optimizing the model's hyperparameters, the proposed system provides accurate and reliable forecasts. This tool empowers pharmaceutical companies to make proactive decisions in production and supply chain management, ultimately improving efficiency and reducing costs. The project showcases the potential of data-driven approaches in enhancing decision-making processes within the pharmaceutical sector.
