@@ -56,7 +56,7 @@ The proposed system involves several key steps:
 ![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/a822738a-264d-44cd-835c-3edf7b920f91)
 # Video Explanation:
 
-(https://github.com/GokulS8/Tamil-and-English-Movie-Recommendation/assets/139874544/160729ba-a6ba-4ec8-8fe8-28fc18d356d9)
+https://github.com/GokulS8/Tamil-and-English-Movie-Recommendation/assets/139874544/160729ba-a6ba-4ec8-8fe8-28fc18d356d9
 
 
 # Setup:
