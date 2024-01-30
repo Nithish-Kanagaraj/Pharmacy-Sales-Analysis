@@ -82,6 +82,8 @@ iii.Launch the Gradio interface for real-time predictions
 
 ```pip install xgboost```
 
+```pip install pickle```
+
 ```from sklearnex import patch_sklearn```
 
 ```patch_sklearn()```
