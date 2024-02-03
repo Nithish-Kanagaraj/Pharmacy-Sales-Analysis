@@ -1,5 +1,7 @@
 # Pharmacy-Sales-Analysis
+#### It is a BI-tool that is billing intelligence rather than business intelligence. 
 # Introduction:
+
 The pharmaceutical industry relies heavily on accurate forecasting of drug consumption to optimize production and distribution. Accurate predictions enable efficient resource allocation and inventory management. In this context, data-driven approaches, specifically machine learning models, have proven effective in forecasting drug consumption based on historical data.In addition to leveraging machine learning techniques for drug consumption prediction, this project also incorporates the development of a Billing software feature for the pharmaceutical sector. This **Billing software** aims to streamline the financial aspects of the industry by automating the billing process and providing accurate and efficient invoicing for pharmaceutical products.The Billing software feature will be seamlessly integrated into the overall system, allowing pharmaceutical companies to generate invoices and manage financial transactions with ease.The addition of report analysis prediction to the project allows for the **prediction of sales analysis**. With this feature, the Billing software can generate comprehensive reports that provide insights into sales patterns and trends.
 
 # oneAPI
@@ -15,41 +17,47 @@ The primary objective of this project is to develop a robust and accurate model 
 # Proposed System:
 The proposed system involves several key steps:
 
-1. *Data Exploration and Visualization:* The initial phase involves exploring and visualizing historical drug consumption data. Various plots and charts, such as line charts and bar charts, are utilized to understand consumption trends over time, by drug category, and on a monthly or yearly basis.
+1. ***Data Exploration and Visualization:*** The initial phase involves exploring and visualizing historical drug consumption data. Various plots and charts, such as line charts and bar charts, are utilized to understand consumption trends over time, by drug category, and on a monthly or yearly basis.
 
-2. *Data Preprocessing:* The dataset undergoes preprocessing steps, including encoding categorical variables using LabelEncoder and melting the data to facilitate machine learning model training.
+2. ***Data Preprocessing:*** The dataset undergoes preprocessing steps, including encoding categorical variables using LabelEncoder and melting the data to facilitate machine learning model training.
 
 ![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/6328a7ae-bd75-4039-8204-9fa6ef748d90)
 
 
 
 
-3. *Model Training:* **XGBoost regression** is chosen as the predictive model due to its effectiveness in handling complex relationships within the data. The model is trained on historical data, with an emphasis on features such as year, month, day, and drug type.To improve performance, **oneApi** was utilized.
+3. ***Model Training:*** **XGBoost regression** is chosen as the predictive model due to its effectiveness in handling complex relationships within the data. The model is trained on historical data, with an emphasis on features such as year, month, day, and drug type.To improve performance, **oneApi** was utilized.
 
-4. *Hyperparameter Tuning:* Grid search is employed to optimize the hyperparameters of the XGBoost model, ensuring the best possible performance. The grid search explores combinations of parameters such as the number of trees, learning rate, maximum depth, subsample ratio, and column subsample ratio.
+4. ***Hyperparameter Tuning:*** Grid search is employed to optimize the hyperparameters of the XGBoost model, ensuring the best possible performance. The grid search explores combinations of parameters such as the number of trees, learning rate, maximum depth, subsample ratio, and column subsample ratio.
 
-5. *Model Evaluation:* The model's performance is evaluated using metrics such as mean squared error on a test set. This step ensures the model's ability to generalize to new, unseen data.
+5. ***Model Evaluation:*** The model's performance is evaluated using metrics such as mean squared error on a test set. This step ensures the model's ability to generalize to new, unseen data.
 
-6. *Deployment and Prediction:* Once the model is trained and optimized, it is deployed and used to predict drug consumption for a specified time period and drug category.
+6. ***Deployment and Prediction:*** Once the model is trained and optimized, it is deployed and used to predict drug consumption for a specified time period and drug category.
 
 ![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/a39703c7-566e-436f-8ff3-dc56b2eeed65)
 
 
 
-7. *User Inteface:* Once the forecast is generated, you can view the predicted drug consumption for the selected timeframe through interactive visualizations and charts.
+7. ***User Inteface:*** Once the forecast is generated, you can view the predicted drug consumption for the selected timeframe through interactive visualizations and charts.
 # Features:
 
-1. *UserLogin:* A login ID is provided to users to access a system or platform specifically designed for managing sales-related activities. With their unique login ID, individuals can log in to the system, track sales data, process orders, manage inventory, and perform other sales-related tasks efficiently and securely.
+### UserLogin
+
+   A login ID is provided to users to access a system or platform specifically designed for managing sales-related activities. With their unique login ID, individuals can log in to the system, track sales data, process orders, manage inventory, and perform other sales-related tasks efficiently and securely.
+   
 
 ![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/e4b96191-e04a-423c-83fa-2b30550bbfad)
 
 
+### Billing Software
+
+   Billing is a robust and user-friendly billing software designed specifically for healthcare professionals and medical facilities. Whether you're a small clinic or a large hospital, our software offers a comprehensive solution to manage all aspects of your billing needs efficiently.
    
-2. *Billing Software:* Billing is a robust and user-friendly billing software designed specifically for healthcare professionals and medical facilities. Whether you're a small clinic or a large hospital, our software offers a comprehensive solution to manage all aspects of your billing needs efficiently.
 
 ![IMG-20240129-WA0008](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/c59f958c-e84a-4995-8b50-93440307c5ee)
 
-3. *Overall Sales Analysis:* Analytics offers powerful tools and analytics to help you understand and optimize your overall sales performance. Whether you're a small business or a large enterprise, our platform provides the insights you need to make data-driven decisions and drive growth.
+### Overall Sales Analysis:
+   Analytics offers powerful tools and analytics to help you understand and optimize your overall sales performance. Whether you're a small business or a large enterprise, our platform provides the insights you need to make data-driven decisions and drive growth.
 
 ![image](https://github.com/Nithish-Kanagaraj/Pharmacy-Sales-Analysis/assets/143336408/63c2f84a-4b8b-466a-88bf-a25f26fb0e21)
 
@@ -91,6 +99,6 @@ iii.Launch the Gradio interface for real-time predictions
 ```patch_sklearn()```
 
 # Result and Discussion:
-After pre-processing and analyzing the obtained dataset, we found that GNB model outperformed all other models with the Root Mean Squared Error of 2.9414887060211687. On the other hand Decision tree with an accuracy of 8.546336651758923.
+After pre-processing and analyzing the obtained dataset, we found that GNB model outperformed all other models with the **Root Mean Squared Error of 2.9414887060211687**. On the other hand Decision tree with the **Root Mean Squared Error of 8.546336651758923**.
 # Conclusion:
 In conclusion, this project demonstrates the application of machine learning, specifically XGBoost regression, in predicting drug consumption in the pharmaceutical industry. By analyzing historical data and optimizing the model's hyperparameters, the proposed system provides accurate and reliable forecasts. This tool empowers pharmaceutical companies to make proactive decisions in production and supply chain management, ultimately improving efficiency and reducing costs. The project showcases the potential of data-driven approaches in enhancing decision-making processes within the pharmaceutical sector .
