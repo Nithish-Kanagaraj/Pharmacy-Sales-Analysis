@@ -1,6 +1,6 @@
 # Pharmacy-Sales-Analysis
 # Introduction:
-The pharmaceutical industry relies heavily on accurate forecasting of drug consumption to optimize production and distribution. Accurate predictions enable efficient resource allocation and inventory management. In this context, data-driven approaches, specifically machine learning models, have proven effective in forecasting drug consumption based on historical data.In addition to leveraging machine learning techniques for drug consumption prediction, this project also incorporates the development of a Billing software feature for the pharmaceutical sector. This Billing software aims to streamline the financial aspects of the industry by automating the billing process and providing accurate and efficient invoicing for pharmaceutical products.The Billing software feature will be seamlessly integrated into the overall system, allowing pharmaceutical companies to generate invoices and manage financial transactions with ease.The addition of report analysis prediction to the project allows for the prediction of sales analysis. With this feature, the Billing software can generate comprehensive reports that provide insights into sales patterns and trends.
+The pharmaceutical industry relies heavily on accurate forecasting of drug consumption to optimize production and distribution. Accurate predictions enable efficient resource allocation and inventory management. In this context, data-driven approaches, specifically machine learning models, have proven effective in forecasting drug consumption based on historical data.In addition to leveraging machine learning techniques for drug consumption prediction, this project also incorporates the development of a Billing software feature for the pharmaceutical sector. This **Billing software** aims to streamline the financial aspects of the industry by automating the billing process and providing accurate and efficient invoicing for pharmaceutical products.The Billing software feature will be seamlessly integrated into the overall system, allowing pharmaceutical companies to generate invoices and manage financial transactions with ease.The addition of report analysis prediction to the project allows for the **prediction of sales analysis**. With this feature, the Billing software can generate comprehensive reports that provide insights into sales patterns and trends.
 
 # oneAPI
    oneAPI is an open, standards-based programming model designed to simplify development across diverse computing architectures. It is an initiative led by Intel, aiming to provide a unified programming model for heterogeneous computing environments, including CPUs, GPUs, FPGAs, and other accelerators.Optimizing code for oneAPI involves leveraging the features and tools provided by the oneAPI programming model to achieve better performance on diverse computing architectures.For optimizing your XGBoost project with oneAPI, start by installing the oneAPI toolkit on your system. When building XGBoost from source, use the Intel C++ Compiler (icc) from the oneAPI toolkit for potential performance improvements on Intel CPUs. Alternatively, consider using the Intel Distribution for XGBoost, specifically designed for Intel architectures. If you have Intel GPUs and aim to offload computations to the GPU using oneAPI, modify the XGBoost code or use compatible APIs such as DPC++. Profiling tools like Intel VTune Profiler can help identify performance bottlenecks. Stay updated by referring to the official documentation of XGBoost, the oneAPI toolkit, and relevant tools, as software features may evolve. These steps ensure an optimized integration of XGBoost with oneAPI for efficient machine learning on Intel architectures in your project. 
@@ -10,7 +10,7 @@ The pharmaceutical industry relies heavily on accurate forecasting of drug consu
 
 
 # Objective:
-The primary objective of this project is to develop a robust and accurate model for predicting drug consumption in the pharmaceutical industry. The model is trained on historical data, considering factors such as time, day, and drug type. By utilizing XGBoost regression and optimizing hyperparameters through grid search, the goal is to create a reliable tool for forecasting drug consumption. this project also incorporates the development of a billing software feature for the pharmaceutical sector.The addition of report analysis prediction to the project allows for the prediction of sales analysis. With this feature, the billing software can generate comprehensive reports that provide insights into sales patterns and trends.
+The primary objective of this project is to develop a robust and accurate model for predicting drug consumption in the pharmaceutical industry. The model is trained on historical data, considering factors such as time, day, and drug type. By utilizing **XGBoost regression** and optimizing hyperparameters through grid search, the goal is to create a reliable tool for forecasting drug consumption. this project also incorporates the development of a billing software feature for the pharmaceutical sector.The addition of report analysis prediction to the project allows for the prediction of sales analysis. With this feature, the billing software can generate comprehensive reports that provide insights into sales patterns and trends.
 
 # Proposed System:
 The proposed system involves several key steps:
@@ -24,7 +24,7 @@ The proposed system involves several key steps:
 
 
 
-3. *Model Training:* XGBoost regression is chosen as the predictive model due to its effectiveness in handling complex relationships within the data. The model is trained on historical data, with an emphasis on features such as year, month, day, and drug type.
+3. *Model Training:* **XGBoost regression** is chosen as the predictive model due to its effectiveness in handling complex relationships within the data. The model is trained on historical data, with an emphasis on features such as year, month, day, and drug type.To improve performance, **oneApi** was utilized.
 
 4. *Hyperparameter Tuning:* Grid search is employed to optimize the hyperparameters of the XGBoost model, ensuring the best possible performance. The grid search explores combinations of parameters such as the number of trees, learning rate, maximum depth, subsample ratio, and column subsample ratio.
 
@@ -78,6 +78,8 @@ iii.Launch the Gradio interface for real-time predictions
 
 ```pip install scikit-learn```
 
+```pip install matplotlib```
+
 ```pip install gradio```
 
 ```pip install xgboost```
@@ -87,6 +89,7 @@ iii.Launch the Gradio interface for real-time predictions
 ```from sklearnex import patch_sklearn```
 
 ```patch_sklearn()```
+
 # Result and Discussion:
 After pre-processing and analyzing the obtained dataset, we found that GNB model outperformed all other models with the Root Mean Squared Error of 2.9414887060211687. On the other hand Decision tree with an accuracy of 8.546336651758923.
 # Conclusion:
